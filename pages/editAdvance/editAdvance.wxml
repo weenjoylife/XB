@@ -1,0 +1,28 @@
+<!--pages/editAdvance/editAdvance.wxml-->
+<view class="u-down-view background">
+  <form class="u-down-view" bindsubmit="saveAdvanceField">
+      <view class="u-down-view">
+        <text style="color:red">喜欢:</text>
+        <view class="inline-flex">吃：
+          <input focus="true" name="eat" value="{{like_eat}}" bindblur="setLikeEat"/></view>
+        <view class="inline-flex">喝：
+          <input name="drink" value="{{like_drink}}" bindblur="setLikeDrink"/></view>
+        <view class="inline-flex">玩：
+          <input name="play" value="{{like_play}}" bindblur="setLikePlay"/></view>
+        <view class="inline-flex">乐：
+          <input name="fun" value="{{like_fun}}" bindblur="setLikeFun"/></view>
+      </view>
+      <view class="u-down-view">
+        <text style="color:red">讨厌:</text>
+        <view class="inline-flex">吃：
+          <input name="eat2" value="{{hate_eat}}" bindblur="setHateEat"/></view>
+        <view class="inline-flex">喝：
+          <input name="drink2" value="{{hate_drink}}" bindblur="setHateDrink"/></view>
+        <view class="inline-flex">玩：
+          <input name="play2" value="{{hate_play}}" bindblur="setHatePlay"/></view>
+        <view class="inline-flex">乐：
+          <input name="fun2" value="{{hate_fun}}" bindblur="setHateFun"/></view>
+      </view>
+      <button form-type="submit">保存</button>
+  </form>
+  </view>

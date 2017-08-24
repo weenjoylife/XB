@@ -1,0 +1,52 @@
+<!--pages/love/love.wxml-->
+<view class="u-down-view background" >
+  <view class="r-left-view" >
+    <view>
+      <form class="u-down-view">
+        <view class="base-field">
+        基本属性
+        <button bindtap="editBasicField">编辑</button>
+        </view>
+        <view class="inline-flex">破蛋日:<input disabled="true" name="birthday" value="{{birthday}}"/></view>
+        <view class="inline-flex">身高：<input disabled="true" name="heght" value="{{height}}"/></view>
+        <view class="inline-flex">体重:<input disabled="true" name="weight" value="{{weight}}"/></view>
+        <view class="inline-flex">三围:<input disabled="true" name="size3" value="{{size}}"/></view>
+        <view class="inline-flex">老巢:<input disabled="true" name="locaiton" value="{{location}}"/></view>
+      </form> 
+    </view>
+    
+    <image style="height:100px" src="../../resources/photo.png"></image>
+  </view>
+
+
+  <view class="u-down-view">
+   <view class="advance-field">
+   高级属性
+   <button bindtap="editAdvancedField">编辑</button>
+   </view>
+    <view class="u-down-view">
+      <text style="color:red">喜欢:</text>
+      <view class="inline-flex">吃：{{like_eat}}<input  disabled="true" name="eat" /></view>
+      <view class="inline-flex">喝：{{like_drink}}<input  disabled="true" name="drink" /></view>
+      <view class="inline-flex">玩：{{like_play}}<input  disabled="true" name="play" /></view>
+      <view class="inline-flex">乐：{{like_fun}}<input  disabled="true" name="fun" /></view>
+    </view>
+    <view class="u-down-view">
+      <text style="color:red">讨厌:</text>
+      <view class="inline-flex">吃：{{hate_eat}}<input disabled="true" name="eat" /></view>
+      <view class="inline-flex">喝：{{hate_drink}}<input disabled="true" name="drink" /></view>
+      <view class="inline-flex">玩：{{hate_play}}<input disabled="true" name="play" /></view>
+      <view class="inline-flex">乐：{{hate_fun}}<input disabled="true" name="fun" /></view>
+    </view>
+  </view>
+
+  <view class="classname">
+    <view class="inline-flex">Ta的终极目标：{{goalList}}</view>
+  </view>
+
+
+
+</view>
+
+
+

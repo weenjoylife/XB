@@ -1,0 +1,15 @@
+<!--pages/andu/andu.wxml-->
+<view class="anduPageV">
+
+  <view class="mapV">
+    <text class="titile">
+      我这有两张船票，一起去星辰大海怎么样？
+    </text>
+    <map />
+  </view>
+
+  <view class="fengeV"></view>
+
+  <view class="classname"></view>
+
+</view>

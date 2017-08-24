@@ -1,0 +1,22 @@
+/* pages/editAdvance/editAdvance.wxss */
+
+.background{
+  width: 100%;
+  height: 600px;
+  background-image: url("../../resources/3.png")
+}
+
+.advance-field{
+  margin-bottom: 10px
+}
+.inline-flex{
+  margin-bottom: 8px
+}
+
+.inline-flex input{
+  border: solid 1px black
+}
+
+.u-down-view button{
+  background-color: lightblue
+}

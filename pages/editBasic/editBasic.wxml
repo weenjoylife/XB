@@ -1,0 +1,30 @@
+<!--pages/editBasic/editBasic.wxml-->
+<view class="background">
+  <form class="u-down-view" bindsubmit="saveBasicField">
+    <view class="base-field">
+      基本属性
+    </view>
+    <view class="inline-flex">
+      破蛋日:
+      <input focus="true" name="birthday" value="{{birthday}}" bindblur="setBirthday"/>
+    </view>
+    <view class="inline-flex">
+      身高：
+      <input name="heght" value="{{height}}" bindblur="setHeight"/>
+    </view>
+    <view class="inline-flex">
+      体重:
+      <input name="weight" value="{{weight}}" bindblur="setWeight"/>
+    </view>
+    <view class="inline-flex" >
+      三围:
+      <input name="size3" value="{{size}}" bindblur="setSize"/>
+    </view>
+    <view class="inline-flex">
+      老巢:
+      <input name="locaiton" value="{{location}}" bindblur="setLocation"/>
+    </view>
+    <button form-type="submit">保存</button>
+  </form> 
+  
+</view>

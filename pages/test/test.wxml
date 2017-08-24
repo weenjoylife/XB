@@ -1,0 +1,8 @@
+<!--pages/test/test.wxml-->
+<view class="classname">
+<form bindsubmit="save">
+  <input style="border:1px black solid" name="height" />
+  <button form-type="submit">保存</button>
+</form>
+
+</view>

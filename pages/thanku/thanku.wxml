@@ -1,0 +1,27 @@
+<!--pages/thanku/thanku.wxml-->
+<view > 
+
+  <view>
+    报告！Ta又撩我！
+    <button style="margin:15px 0px;width:200px;background-color:lightblue">加入被撩日记</button>
+  </view>
+
+  <view class="timezone">
+            <view class="time">
+                <text>2017-07-10</text>
+                <view>
+                    <p>馨宝为我念的睡前故事</p>
+                      xxx.mp3
+                </view>
+            </view>
+            <view class="time" style="top: 100px;">
+                <text>2017-07-14</text>
+                <view>
+                    <p>馨宝给的惊喜</p>
+                    地税门口.png
+                </view>
+            </view>
+	</view>
+
+
+</view>

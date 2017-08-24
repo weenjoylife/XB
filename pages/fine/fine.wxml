@@ -1,0 +1,68 @@
+<!--pages/fine/fine.wxml-->
+<view class="classname">
+
+  <view style="" class="classname">
+    提醒
+    <view class="classname" style="display:flex;flex-direction:row;">
+      <picker mode="date">
+        <view  style="display:flex;flex-direction:row;">
+          <input style="border:1px solid black;margin-right:2px;" value="2017" />
+          <input style="border:1px solid black;margin-right:2px;" value="03" />
+          <input style="border:1px solid black;margin-right:2px;" value="17" />
+        </view>
+      </picker>
+
+      <picker mode="time">
+        <input style="border:1px solid black" value="12:00" />
+      </picker>
+      
+    </view>
+
+    <view style="display:flex;flex-direction:row;margin:15px 0px;">
+      主题：
+      <input style="border:1px solid black;" />
+    </view>
+
+    <button >加入</button>
+    
+  </view>
+
+  <view class="classname" style="margin:15px 0px">
+    近期待办:
+    <view style="display:flex;margin-top:2px">
+      <label>1.</label>
+      <view style="display:flex;flex-direction:column;margin-left:10px;margin-bottom:10px">
+        <label></label>
+        <label>时间:7月初7</label>
+        <label>主题:七夕</label>
+        <label>备注：礼物是项链</label>
+      </view>
+      <button>修改</button>
+    </view>
+    
+    <view style="display:flex;">
+      <label>2.</label>
+      <view style="display:flex;flex-direction:column;margin-left:10px;margin-bottom:10px">
+        <label></label>
+        <label>时间:7月初7</label>
+        <label>主题:七夕</label>
+        <label>备注：礼物是项链</label>
+      </view>
+      <button>修改</button>
+    </view>
+    
+    <view style="display:flex;">
+      <label>3.</label>
+      <view style="display:flex;flex-direction:column;margin-left:10px;margin-bottom:10px">
+        <label></label>
+        <label>时间:7月初7</label>
+        <label>主题:七夕</label>
+        <label>备注：礼物是项链</label>
+      </view>
+      <button>修改</button>
+    </view>
+  </view>
+  
+
+
+</view>

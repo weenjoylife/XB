@@ -1,0 +1,9 @@
+/* pages/fine/fine.wxss */
+.inline-flex{
+  display: inline-flex;
+  
+}
+
+.haveBolder{
+  border: 10px,solid,green;
+}
