@@ -51,7 +51,13 @@ Page({
           goalList: res.data.goalList
         })
       },
-      fail: function (res) { },
+      fail: function (res) { 
+        wx.showToast({
+          title: 'Oops，连接服务器失败..',
+          icon: 'loading',
+          duration:3000
+        })
+      },
       complete: function (res) { },
     })
   },
