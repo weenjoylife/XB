@@ -1,5 +1,5 @@
 <!--pages/love/love.wxml-->
-<view class="u-down-view background" >
+<view class="u-down-view background" style='background-image: url("../../resources/1.png")'>
   <view class="r-left-view" >
     <view>
       <form class="u-down-view">

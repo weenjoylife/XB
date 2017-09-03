@@ -1,5 +1,5 @@
 <!--pages/editAdvance/editAdvance.wxml-->
-<view class="u-down-view background">
+<view class="u-down-view background" style='background-image: url("../../resources/3.png")'>
   <form class="u-down-view" bindsubmit="saveAdvanceField">
       <view class="u-down-view">
         <text style="color:red">喜欢:</text>

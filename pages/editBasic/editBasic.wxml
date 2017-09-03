@@ -1,5 +1,5 @@
 <!--pages/editBasic/editBasic.wxml-->
-<view class="background">
+<view class="background" style='background-image: url("../../resources/2.png")'>
   <form class="u-down-view" bindsubmit="saveBasicField">
     <view class="base-field">
       基本属性
