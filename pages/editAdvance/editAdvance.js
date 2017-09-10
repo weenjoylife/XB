@@ -130,7 +130,8 @@ Page({
         'likeAndHateList.hate_eatList': this.data.hate_eat,
         'likeAndHateList.hate_drinkList': this.data.hate_drink,
         'likeAndHateList.hate_playList': this.data.hate_play,
-        'likeAndHateList.hate_funList': this.data.hate_fun
+        'likeAndHateList.hate_funList': this.data.hate_fun,     
+        id : 1
       },
       success: function (e) {
         console.log(e)

@@ -84,7 +84,8 @@ Page({
         weight: this.data.weight,
         size: this.data.size,
         location: this.data.location,
-        birthday: this.data.birthday
+        birthday: this.data.birthday,
+        id: 1
       },
       success:function(e){
         console.log(e)

@@ -15,7 +15,7 @@
       </form> 
     </view>
     
-    <image style="height:100px" src="../../resources/photo.png"></image>
+    <image style="height:100px;weight:300px" src="../../resources/photo2.png"></image>
   </view>
 
 
